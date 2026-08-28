@@ -1,5 +1,7 @@
 # KLCalendarLanes
 
+> Languages: [English](README.md) · [简体中文](Documentation/zh-Hans/README.md) · [繁體中文](Documentation/zh-Hant/README.md) · [日本語](Documentation/ja/README.md) · [한국어](Documentation/ko/README.md)
+
 `KLCalendarLanes` assigns deterministic lanes to multi-day all-day events in a calendar grid. It solves the part of a calendar layout that is easy to get wrong when a range overlaps a single-day event or another range. The package only calculates placement. It does not render dates, colors, labels, or event cells.
 
 ```swift
@@ -54,8 +56,8 @@ See [English documentation](Documentation/en/README.md) or the localized directo
 
 ## Demos
 
-- [Calendar grid demo](Demos/CalendarGridDemo/README.md)
-- [Overflow and overlap demo](Demos/CalendarOverlapDemo/README.md)
+- [Month lane demo](Examples/MonthLane)
+- [Lane stress demo](Examples/LaneStressLab)
 
 ## Requirements
 
